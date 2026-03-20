@@ -1,0 +1,80 @@
+[WARNING]: Platform freebsd on host angeldelaguarda is using the discovered
+Python interpreter at /usr/local/bin/python3.11, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host albirgestion is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host bocopa is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host bepama is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host asema is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host carelive is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host britigraf is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host gumalba is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host grupopemargq is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host jesusmaria is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host lamilagrosa is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host tecnobox is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host mastercover is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host tpol is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host thot is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+[WARNING]: Platform freebsd on host poste is using the discovered Python
+interpreter at /usr/local/bin/python3.11, but future installation of another
+Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.

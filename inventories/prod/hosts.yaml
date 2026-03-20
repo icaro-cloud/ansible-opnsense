@@ -1,0 +1,79 @@
+opnsense:
+  hosts:
+    albirgestion:
+      ansible_host: 217.70.253.100
+      ansible_port: 50300
+    angeldelaguarda:
+      ansible_host: angeldelaguarda.dacominformatica.net
+      ansible_port: 50300
+    asema:
+      ansible_host: asema.dacominformatica.net
+      ansible_port: 50300
+    bepama:
+      ansible_host: 185.213.109.13
+      ansible_port: 50300
+    bepama2:
+      ansible_host: 195.55.212.244
+      ansible_port: 50300
+    bocopa:
+      ansible_host: 81.42.201.208
+      ansible_port: 50300
+    britigraf:
+      ansible_host: 85.50.122.99
+      ansible_port: 50300
+    carelive:
+      ansible_host: carelive.sytes.net
+      ansible_port: 50300
+    electrotesla:
+      ansible_host: tesla.dacominformatica.net
+      ansible_port: 50300
+    electricidadmg:
+      ansible_host: mgarcia.dacominformatica.net
+      ansible_port: 50300
+    estribor:
+      ansible_host: 195.55.212.3
+      ansible_port: 50300
+    fuster:
+      ansible_host: fuster.dacominformatica.net
+      ansible_port: 50300
+    grupopemargq:
+      ansible_host: 94.154.3.50
+      ansible_port: 50300
+    gumalba:
+      ansible_host: gumalba.dacominformatica.net
+      ansible_port: 50300
+    gumalba2:
+      ansible_host: 195.55.212.215
+      ansible_port: 50300
+    jesusmaria:
+      ansible_host: jesusmaria.dacominformatica.net
+      ansible_port: 50300
+    lamilagrosa:
+      ansible_host: c6140ed357a2.sn.mynetname.net
+      ansible_port: 50300
+    mastercover:
+      ansible_host: mastercober.sytes.net
+      ansible_port: 50300
+    tecnobox:
+      ansible_host: tecnobox2.dacominformatica.net
+      ansible_port: 50300
+    tpol:
+      ansible_host: 83.61.8.219
+      ansible_port: 50300
+    thot:
+      ansible_host: 88.30.13.255
+      ansible_port: 50300
+    icaro:
+      ansible_host: 10.1.10.254
+      ansible_port: 22
+    poste:
+      ansible_host: 195.55.212.200
+      ansible_port: 50300
+
+  vars:
+    ansible_user: root
+    ansible_ssh_private_key_file: /home/operador/.ssh/id_ed25519_ansible
+    ansible_become: false
+    ansible_become_method: su
+    ansible_become_user: root
+    ansible_become_ask_pass: true

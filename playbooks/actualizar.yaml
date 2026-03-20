@@ -1,0 +1,85 @@
+---
+- name: Actualizar OPNsense firewall
+  hosts: opnsense
+  become: yes
+  gather_facts: no
+
+  # Secuencia correcta para automatizar updates
+  # opnsense-update -U
+  # opnsense-update
+  # pkg update -f
+  # pkg upgrade -y
+  vars:
+     snapshot_name: "backup-{{ lookup('pipe','date +%Y%m%d-%H%M') }}"
+
+  tasks:
+
+  - name: Crear snapshot con bectl
+    ansible.builtin.shell: "bectl create {{ snapshot_name }}"
+    register: snapshot_result
+    changed_when: "'already exists' not in snapshot_result.stdout"
+
+  - name: Mostrar resultado
+    ansible.builtin.debug:
+      var: snapshot_result.stdout
+
+  - name: Update firmware metadata
+    ansible.builtin.shell: opnsense-update -U
+    register: meta_update
+    changed_when: false
+    ignore_errors: yes
+
+  - name: Update base system
+    ansible.builtin.shell: opnsense-update
+    register: base_update
+    ignore_errors: yes
+
+  - name: Update pkg repository
+    ansible.builtin.shell: pkg-static update -f
+    register: pkg_update
+    ignore_errors: yes
+
+  - name: Upgrade packages and plugins
+    ansible.builtin.shell: pkg-static upgrade -y
+    register: pkg_upgrade
+    ignore_errors: yes
+
+  #- name: Show pkg upgrade result
+  #  ansible.builtin.debug:
+  #    var: pkg_upgrade.stdout
+
+  #- name: Guardar salida de pkg upgrade en un log
+  #  ansible.builtin.copy:
+  #    content: "{{ pkg_upgrade.stdout }}"
+  #    dest: "/home/operador/opnsense-project/logs/pkg_upgrade_{{ inventory_hostname }}_{{ lookup('pipe','date +%Y%m%d-%H%M') }}.log"
+  #    mode: '0644'
+  #  delegate_to: localhost
+  #  become: no
+
+  - name: Guardar versión OPNSense
+    ansible.builtin.shell: opnsense-version
+    register: version
+
+  - name: Registrar versión OPNSense
+    lineinfile:
+      path: versiones-opnsense.txt
+      line: "{{ version.stdout }} - {{ inventory_hostname }}"
+      create: yes
+      insertafter: EOF
+    delegate_to: localhost
+    become: no
+
+  - name: Reboot firewall after updates
+    reboot:
+      reboot_timeout: 600
+
+#  - name: Repair pkg if segmentation fault
+#    shell: |
+#      pkg bootstrap -f
+#      pkg update -f
+#      pkg upgrade -y
+#    when: pkg_upgrade.rc != 0
+
+
+
+

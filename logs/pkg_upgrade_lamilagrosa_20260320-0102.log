@@ -1,0 +1,682 @@
+Updating OPNsense repository catalogue...
+OPNsense repository is up to date.
+Updating SunnyValley repository catalogue...
+Fetching meta.conf: . done
+SunnyValley repository is up to date.
+All repositories are up to date.
+Checking for upgrades (22 candidates): .......... done
+Processing candidates (22 candidates): .......... done
+The following 73 package(s) will be affected (of 0 checked):
+
+New packages to be INSTALLED:
+	colordiff: 1.0.22 [OPNsense]
+	py313-Babel: 2.18.0 [OPNsense]
+	py313-Jinja2: 3.1.6 [OPNsense]
+	py313-aioquic: 1.3.0_1 [OPNsense]
+	py313-anyio: 4.12.1 [OPNsense]
+	py313-async_generator: 1.10_1 [OPNsense]
+	py313-attrs: 25.4.0 [OPNsense]
+	py313-bottleneck: 1.6.0 [OPNsense]
+	py313-certifi: 2026.1.4 [OPNsense]
+	py313-cffi: 2.0.0 [OPNsense]
+	py313-charset-normalizer: 3.4.4 [OPNsense]
+	py313-cryptography: 46.0.4,1 [OPNsense]
+	py313-dnspython: 2.8.0_1,1 [OPNsense]
+	py313-duckdb: 1.4.4 [OPNsense]
+	py313-h11: 0.16.0 [OPNsense]
+	py313-h2: 4.1.0_1 [OPNsense]
+	py313-hpack: 4.0.0_1 [OPNsense]
+	py313-httpcore: 1.0.9 [OPNsense]
+	py313-httpx: 0.28.1_1 [OPNsense]
+	py313-hyperframe: 6.0.0_1 [OPNsense]
+	py313-idna: 3.11 [OPNsense]
+	py313-jq: 1.11.0 [OPNsense]
+	py313-ldap3: 2.9.1_1 [OPNsense]
+	py313-markupsafe: 3.0.3 [OPNsense]
+	py313-numexpr: 2.14.1 [OPNsense]
+	py313-numpy: 1.26.4_12,1 [OPNsense]
+	py313-outcome: 1.3.0_2 [OPNsense]
+	py313-packaging: 26.0 [OPNsense]
+	py313-pandas: 2.3.3,1 [OPNsense]
+	py313-pyasn1: 0.6.0 [OPNsense]
+	py313-pyasn1-modules: 0.4.1 [OPNsense]
+	py313-pycparser: 2.23 [OPNsense]
+	py313-pylsqpack: 0.3.23 [OPNsense]
+	py313-pyopenssl: 25.3.0_1,1 [OPNsense]
+	py313-pysocks: 1.7.1_1 [OPNsense]
+	py313-python-dateutil: 2.9.0 [OPNsense]
+	py313-pytz: 2025.2_1,1 [OPNsense]
+	py313-pyyaml: 6.0.3 [OPNsense]
+	py313-requests: 2.32.5 [OPNsense]
+	py313-service-identity: 24.2.0 [OPNsense]
+	py313-six: 1.17.0 [OPNsense]
+	py313-sniffio: 1.3.1 [OPNsense]
+	py313-socksio: 1.0.0_1 [OPNsense]
+	py313-sortedcontainers: 2.4.0_1 [OPNsense]
+	py313-sqlite3: 3.13.12_10 [OPNsense]
+	py313-trio: 0.33.0 [OPNsense]
+	py313-truststore: 0.10.4 [OPNsense]
+	py313-tzdata: 2025.3 [OPNsense]
+	py313-ujson: 5.11.0 [OPNsense]
+	py313-urllib3: 2.6.3,1 [OPNsense]
+	py313-vici: 6.0.3 [OPNsense]
+	python313: 3.13.12 [OPNsense]
+
+Installed packages to be UPGRADED:
+	dnsmasq: 2.92,1 -> 2.92_2,1 [OPNsense]
+	jansson: 2.14.1 -> 2.15.0 [OPNsense]
+	libucl: 0.9.3 -> 0.9.4 [OPNsense]
+	libunistring: 1.4.1 -> 1.4.2 [OPNsense]
+	libxml2: 2.15.1_1 -> 2.15.2 [OPNsense]
+	nss: 3.120 -> 3.121 [OPNsense]
+	opnsense: 26.1.2 -> 26.1.4 [OPNsense]
+	opnsense-installer: 25.1_1 -> 25.1_2 [OPNsense]
+	opnsense-lang: 26.1.1 -> 26.1.4 [OPNsense]
+	opnsense-update: 26.1.1_1 -> 26.1.3 [OPNsense]
+	os-isc-dhcp: 1.0_3 -> 1.0_4 [OPNsense]
+	os-nextcloud-backup: 1.1 -> 1.2 [OPNsense]
+	os-sensei: 2.3.3 -> 2.4.1 [SunnyValley]
+	os-sensei-agent: 2.3.3 -> 2.4 [SunnyValley]
+	smartmontools: 7.5_1 -> 7.5_2 [OPNsense]
+	strongswan: 6.0.3_1 -> 6.0.4 [OPNsense]
+	suricata: 8.0.3_1 -> 8.0.3_2 [OPNsense]
+	syslog-ng: 4.10.2 -> 4.11.0 [OPNsense]
+
+Installed packages to be REINSTALLED:
+	glib-2.84.4,2 [OPNsense] (direct dependency changed: python313)
+	kea-3.0.2_1 [OPNsense] (direct dependency changed: python313)
+	unbound-1.24.2_1 [OPNsense] (direct dependency changed: python313)
+
+Number of packages to be installed: 52
+Number of packages to be upgraded: 18
+Number of packages to be reinstalled: 3
+
+The process will require 508 MiB more space.
+287 MiB to be downloaded.
+[1/73] Fetching os-sensei-agent-2.4.pkg: .......... done
+[2/73] Fetching unbound-1.24.2_1.pkg: .......... done
+[3/73] Fetching py313-idna-3.11.pkg: .......... done
+[4/73] Fetching py313-markupsafe-3.0.3.pkg: . done
+[5/73] Fetching py313-outcome-1.3.0_2.pkg: . done
+[6/73] Fetching opnsense-update-26.1.3.pkg: ..... done
+[7/73] Fetching py313-pyopenssl-25.3.0_1,1.pkg: .......... done
+[8/73] Fetching py313-socksio-1.0.0_1.pkg: .. done
+[9/73] Fetching py313-service-identity-24.2.0.pkg: ... done
+[10/73] Fetching os-nextcloud-backup-1.2.pkg: . done
+[11/73] Fetching py313-cffi-2.0.0.pkg: .......... done
+[12/73] Fetching py313-sortedcontainers-2.4.0_1.pkg: ...... done
+[13/73] Fetching nss-3.121.pkg: .......... done
+[14/73] Fetching py313-h2-4.1.0_1.pkg: .......... done
+[15/73] Fetching libunistring-1.4.2.pkg: .......... done
+[16/73] Fetching py313-packaging-26.0.pkg: .......... done
+[17/73] Fetching py313-dnspython-2.8.0_1,1.pkg: .......... done
+[18/73] Fetching py313-sniffio-1.3.1.pkg: . done
+[19/73] Fetching os-isc-dhcp-1.0_4.pkg: ..... done
+[20/73] Fetching python313-3.13.12.pkg: .......... done
+[21/73] Fetching py313-pyyaml-6.0.3.pkg: .......... done
+[22/73] Fetching py313-hyperframe-6.0.0_1.pkg: .. done
+[23/73] Fetching py313-pysocks-1.7.1_1.pkg: ... done
+[24/73] Fetching py313-pyasn1-0.6.0.pkg: .......... done
+[25/73] Fetching libxml2-2.15.2.pkg: .......... done
+[26/73] Fetching py313-pandas-2.3.3,1.pkg: .......... done
+[27/73] Fetching dnsmasq-2.92_2,1.pkg: .......... done
+[28/73] Fetching py313-pytz-2025.2_1,1.pkg: .......... done
+[29/73] Fetching syslog-ng-4.11.0.pkg: .......... done
+[30/73] Fetching py313-jq-1.11.0.pkg: ...... done
+[31/73] Fetching py313-ldap3-2.9.1_1.pkg: .......... done
+[32/73] Fetching py313-certifi-2026.1.4.pkg: .......... done
+[33/73] Fetching py313-httpcore-1.0.9.pkg: .......... done
+[34/73] Fetching py313-bottleneck-1.6.0.pkg: .......... done
+[35/73] Fetching py313-Jinja2-3.1.6.pkg: .......... done
+[36/73] Fetching py313-charset-normalizer-3.4.4.pkg: .......... done
+[37/73] Fetching py313-truststore-0.10.4.pkg: ..... done
+[38/73] Fetching kea-3.0.2_1.pkg: .......... done
+[39/73] Fetching py313-cryptography-46.0.4,1.pkg: .......... done
+[40/73] Fetching py313-vici-6.0.3.pkg: .. done
+[41/73] Fetching py313-aioquic-1.3.0_1.pkg: .......... done
+[42/73] Fetching py313-pyasn1-modules-0.4.1.pkg: .......... done
+[43/73] Fetching colordiff-1.0.22.pkg: . done
+[44/73] Fetching os-sensei-2.4.1.pkg: .......... done
+[45/73] Fetching py313-pycparser-2.23.pkg: .......... done
+[46/73] Fetching py313-six-1.17.0.pkg: ... done
+[47/73] Fetching py313-trio-0.33.0.pkg: .......... done
+[48/73] Fetching jansson-2.15.0.pkg: ........ done
+[49/73] Fetching py313-sqlite3-3.13.12_10.pkg: ..... done
+[50/73] Fetching py313-urllib3-2.6.3,1.pkg: .......... done
+[51/73] Fetching py313-Babel-2.18.0.pkg: .......... done
+[52/73] Fetching py313-anyio-4.12.1.pkg: .......... done
+[53/73] Fetching py313-pylsqpack-0.3.23.pkg: .......... done
+[54/73] Fetching py313-attrs-25.4.0.pkg: .......... done
+[55/73] Fetching py313-requests-2.32.5.pkg: .......... done
+[56/73] Fetching py313-python-dateutil-2.9.0.pkg: .......... done
+[57/73] Fetching suricata-8.0.3_2.pkg: .......... done
+[58/73] Fetching py313-hpack-4.0.0_1.pkg: ....... done
+[59/73] Fetching py313-async_generator-1.10_1.pkg: ...... done
+[60/73] Fetching py313-numexpr-2.14.1.pkg: .......... done
+[61/73] Fetching py313-h11-0.16.0.pkg: ....... done
+[62/73] Fetching py313-tzdata-2025.3.pkg: .......... done
+[63/73] Fetching glib-2.84.4,2.pkg: .......... done
+[64/73] Fetching libucl-0.9.4.pkg: .......... done
+[65/73] Fetching py313-ujson-5.11.0.pkg: ...... done
+[66/73] Fetching opnsense-26.1.4.pkg: .......... done
+[67/73] Fetching strongswan-6.0.4.pkg: .......... done
+[68/73] Fetching smartmontools-7.5_2.pkg: .......... done
+[69/73] Fetching py313-httpx-0.28.1_1.pkg: .......... done
+[70/73] Fetching opnsense-installer-25.1_2.pkg: ... done
+[71/73] Fetching opnsense-lang-26.1.4.pkg: .......... done
+[72/73] Fetching py313-numpy-1.26.4_12,1.pkg: .......... done
+[73/73] Fetching py313-duckdb-1.4.4.pkg: .......... done
+Checking integrity... done (6 conflicting)
+  - os-isc-dhcp-1.0_4 [OPNsense] conflicts with opnsense-26.1.2 [installed] on /usr/local/opnsense/mvc/app/models/OPNsense/Interfaces/Neighbor/dhcpd.php
+  - py313-charset-normalizer-3.4.4 [OPNsense] conflicts with py311-charset-normalizer-3.4.4 [installed] on /usr/local/bin/normalizer
+  - py313-pyasn1-modules-0.4.1 [OPNsense] conflicts with py311-pyasn1-modules-0.4.1 [installed] on /usr/local/bin/cmcdump.py
+  - py313-Babel-2.18.0 [OPNsense] conflicts with py311-Babel-2.18.0 [installed] on /usr/local/bin/pybabel
+  - py313-httpx-0.28.1_1 [OPNsense] conflicts with py311-httpx-0.28.1_1 [installed] on /usr/local/bin/httpx
+  - py313-numpy-1.26.4_12,1 [OPNsense] conflicts with py311-numpy-1.26.4_12,1 [installed] on /usr/local/bin/f2py
+Checking integrity... done (0 conflicting)
+Conflicts with the existing packages have been found.
+One more solver iteration is needed to resolve them.
+The following 88 package(s) will be affected (of 0 checked):
+
+New packages to be INSTALLED:
+	colordiff: 1.0.22 [OPNsense]
+	py313-Babel: 2.18.0 [OPNsense]
+	py313-Jinja2: 3.1.6 [OPNsense]
+	py313-aioquic: 1.3.0_1 [OPNsense]
+	py313-anyio: 4.12.1 [OPNsense]
+	py313-async_generator: 1.10_1 [OPNsense]
+	py313-attrs: 25.4.0 [OPNsense]
+	py313-bottleneck: 1.6.0 [OPNsense]
+	py313-certifi: 2026.1.4 [OPNsense]
+	py313-cffi: 2.0.0 [OPNsense]
+	py313-charset-normalizer: 3.4.4 [OPNsense]
+	py313-cryptography: 46.0.4,1 [OPNsense]
+	py313-dnspython: 2.8.0_1,1 [OPNsense]
+	py313-duckdb: 1.4.4 [OPNsense]
+	py313-h11: 0.16.0 [OPNsense]
+	py313-h2: 4.1.0_1 [OPNsense]
+	py313-hpack: 4.0.0_1 [OPNsense]
+	py313-httpcore: 1.0.9 [OPNsense]
+	py313-httpx: 0.28.1_1 [OPNsense]
+	py313-hyperframe: 6.0.0_1 [OPNsense]
+	py313-idna: 3.11 [OPNsense]
+	py313-jq: 1.11.0 [OPNsense]
+	py313-ldap3: 2.9.1_1 [OPNsense]
+	py313-markupsafe: 3.0.3 [OPNsense]
+	py313-numexpr: 2.14.1 [OPNsense]
+	py313-numpy: 1.26.4_12,1 [OPNsense]
+	py313-outcome: 1.3.0_2 [OPNsense]
+	py313-packaging: 26.0 [OPNsense]
+	py313-pandas: 2.3.3,1 [OPNsense]
+	py313-pyasn1: 0.6.0 [OPNsense]
+	py313-pyasn1-modules: 0.4.1 [OPNsense]
+	py313-pycparser: 2.23 [OPNsense]
+	py313-pylsqpack: 0.3.23 [OPNsense]
+	py313-pyopenssl: 25.3.0_1,1 [OPNsense]
+	py313-pysocks: 1.7.1_1 [OPNsense]
+	py313-python-dateutil: 2.9.0 [OPNsense]
+	py313-pytz: 2025.2_1,1 [OPNsense]
+	py313-pyyaml: 6.0.3 [OPNsense]
+	py313-requests: 2.32.5 [OPNsense]
+	py313-service-identity: 24.2.0 [OPNsense]
+	py313-six: 1.17.0 [OPNsense]
+	py313-sniffio: 1.3.1 [OPNsense]
+	py313-socksio: 1.0.0_1 [OPNsense]
+	py313-sortedcontainers: 2.4.0_1 [OPNsense]
+	py313-sqlite3: 3.13.12_10 [OPNsense]
+	py313-trio: 0.33.0 [OPNsense]
+	py313-truststore: 0.10.4 [OPNsense]
+	py313-tzdata: 2025.3 [OPNsense]
+	py313-ujson: 5.11.0 [OPNsense]
+	py313-urllib3: 2.6.3,1 [OPNsense]
+	py313-vici: 6.0.3 [OPNsense]
+	python313: 3.13.12 [OPNsense]
+
+Installed packages to be UPGRADED:
+	dnsmasq: 2.92,1 -> 2.92_2,1 [OPNsense]
+	jansson: 2.14.1 -> 2.15.0 [OPNsense]
+	libucl: 0.9.3 -> 0.9.4 [OPNsense]
+	libunistring: 1.4.1 -> 1.4.2 [OPNsense]
+	libxml2: 2.15.1_1 -> 2.15.2 [OPNsense]
+	nss: 3.120 -> 3.121 [OPNsense]
+	opnsense: 26.1.2 -> 26.1.4 [OPNsense]
+	opnsense-installer: 25.1_1 -> 25.1_2 [OPNsense]
+	opnsense-lang: 26.1.1 -> 26.1.4 [OPNsense]
+	opnsense-update: 26.1.1_1 -> 26.1.3 [OPNsense]
+	os-isc-dhcp: 1.0_3 -> 1.0_4 [OPNsense]
+	os-nextcloud-backup: 1.1 -> 1.2 [OPNsense]
+	os-sensei: 2.3.3 -> 2.4.1 [SunnyValley]
+	os-sensei-agent: 2.3.3 -> 2.4 [SunnyValley]
+	smartmontools: 7.5_1 -> 7.5_2 [OPNsense]
+	strongswan: 6.0.3_1 -> 6.0.4 [OPNsense]
+	suricata: 8.0.3_1 -> 8.0.3_2 [OPNsense]
+	syslog-ng: 4.10.2 -> 4.11.0 [OPNsense]
+
+Installed packages to be REINSTALLED:
+	glib-2.84.4,2 [OPNsense] (direct dependency changed: python313)
+	kea-3.0.2_1 [OPNsense] (direct dependency changed: python313)
+	unbound-1.24.2_1 [OPNsense] (direct dependency changed: python313)
+
+Installed packages to be REMOVED:
+	py311-Babel: 2.18.0
+	py311-Jinja2: 3.1.6
+	py311-aioquic: 1.3.0_1
+	py311-bottleneck: 1.6.0
+	py311-charset-normalizer: 3.4.4
+	py311-dnspython: 2.8.0_1,1
+	py311-duckdb: 1.4.4
+	py311-httpx: 0.28.1_1
+	py311-jq: 1.11.0
+	py311-numexpr: 2.14.1
+	py311-numpy: 1.26.4_12,1
+	py311-pandas: 2.3.3,1
+	py311-pyasn1-modules: 0.4.1
+	py311-requests: 2.32.5
+	py311-service-identity: 24.2.0
+
+Number of packages to be removed: 15
+Number of packages to be installed: 52
+Number of packages to be upgraded: 18
+Number of packages to be reinstalled: 3
+
+The process will require 263 MiB more space.
+Checking integrity... done (0 conflicting)
+[1/89] Installing colordiff-1.0.22...
+[1/89] Extracting colordiff-1.0.22: ...... done
+[2/89] Upgrading jansson from 2.14.1 to 2.15.0...
+[2/89] Extracting jansson-2.15.0: .......... done
+[3/89] Upgrading libucl from 0.9.3 to 0.9.4...
+[3/89] Extracting libucl-0.9.4: .......... done
+[4/89] Upgrading libunistring from 1.4.1 to 1.4.2...
+[4/89] Extracting libunistring-1.4.2: .......... done
+[5/89] Upgrading libxml2 from 2.15.1_1 to 2.15.2...
+[5/89] Extracting libxml2-2.15.2: .......... done
+[6/89] Upgrading nss from 3.120 to 3.121...
+[6/89] Extracting nss-3.121: .......... done
+[7/89] Upgrading os-nextcloud-backup from 1.1 to 1.2...
+[7/89] Extracting os-nextcloud-backup-1.2: .... done
+Migrated OPNsense\Backup\NextcloudSettings from 1.0.0 to 1.0.2
+Reloading plugin configuration
+Flushing all caches...done.
+Configuring system logging...done.
+[8/89] Upgrading os-sensei from 2.3.3 to 2.4.1...
+[8/89] Extracting os-sensei-2.4.1: .......... done
+Zenarmor service is running, saving state to resume after upgrade...
+Removing Zenarmor cron jobs...
+CLI crons: Info: Cron jobs deleted: 1
+CLI crons: Success
+Local path is : /root
+total 25
+-rw-r--r--  1 root wheel   32B Nov 28 10:57 serial
+-rw-r--r--  1 root wheel    0B Nov 28 10:57 .fixed-security-categories
+-rw-r-----  1 root wheel    4B Nov 28 12:08 .configdone
+-rw-r-----  1 root wheel    7B Nov 28 12:09 sensei_cpu_score
+-rw-r--r--  1 root wheel    0B Feb 16 15:59 .mustrestart
+-rw-r--r--  1 root wheel  6.5K Feb 24 00:42 eastpect.cfg
+-rw-r-----  1 root wheel  236B Feb 24 00:42 workers.map
+-rwxr-xr-x  1 root wheel  136B Mar  5 08:14 workers.map.default
+-rwxr-xr-x  1 root wheel   40B Mar  5 08:14 .buildtime
+-rwxr-xr-x  1 root wheel  5.5K Mar  5 08:14 eastpect.cfg.default
+create link for python in virtualenv...Create link python3 to /usr/local/zenarmor/py_venv/bin/python....
+Create link python3 to /usr/local/zenarmor/py_venv/bin/python3....
+done
+Restarting configd service...done
+Activating features for Freemium Edition...
+Clearing OPNsense menu cache...done
+Invalidating OPNsense cache...done
+Invalidating Zenarmor cache...done
+Running Zenarmor post-install scripts...
+Check python version
+Fri Mar 20 00:00:55 UTC 2026
+Removing Zenarmor cron jobs...
+CLI crons: Info: Cron jobs deleted: 0
+CLI crons: Success
+Preparing Settings Db...
+Backup configurations...
+Configuration Migration .....
+License Migration.....
+Node.csv Migration.....
+Certification Migration.....
+Token Migration.....
+Userpin Migration.....
+Serial Migration.....
+Userenricher Tokens Migration.....
+Hostmap Cache Database migration.....
+Creating user_device_cache.db...
+Creating hostmap_cache.db...
+Creating settings.db...
+Application database base path is /usr/local/zenarmor//db/
+12 web 2.0 categories added.
+Prepared Default Policy
+Checking Schedule Reports...
+Preparing Userenrich Db...
+Checking Cloud Nodes...Setting new cloud nodes...done
+ASAN LIBRARY CHECK....
+Generating Zenarmor configuration files...done
+Menu.xml template copied
+StaticConfig template copied
+CLI generate-static-file: OK
+CLI setretireafter:
+CLI setretireafter: DB Type: SQ
+SqLite Retire After: 2
+CLI setretireafter: Skipped: 
+CLI setflavor: 
+CLI setflavor: Warning: Not settings flavor size in eastpect.cfg
+CLI settimestamp: Success
+CLI migrate: Info: Report Mail Configuration Checking
+CLI migrate: Info: done
+CLI migrate: Info: Web category migration ...
+CLI migrate: Info: done
+CLI migrate: Info: Custom web category migration ...
+CLI migrate: Info: done
+CLI migrate: Info: Applications category migration ...
+CLI migrate: Success
+CLI migratewebcat: Success
+CLI bufsysctl (ring): skipped dev.netmap.ring_num: 1024
+CLI bufsysctl: skipped  mem: 17179869184 buf: 1000000
+CLI setdefaultswap: Info: Swap Rate: 60
+CLI setdefaultswap: Success
+CLI fillscheduledreportchart
+CLI fillscheduledreportchart: Success
+CLI setlicensesize: Success: Warning: License is not premium
+CLI check-fix-websites skipped
+CLI check-fix...  
+CLI check-fix done
+CLI configurelicensefeature: Success
+[INFO] CLI check-set-mtu...
+[INFO] CLI check-set-mtu: igc5 MTU already set, skipping...
+Running OPNsense post install scripts...done
+Configuring Zenarmor cron jobs...
+CLI crons: Info: Cron jobs created: 1
+CLI crons: Info: Cron jobs edited: 1
+CLI crons: Success
+Adding new dashboard widget to OPNsense...done
+Copy block tamplate ...done
+Generating Default CA keys and certificates...done
+Registering plug-in to the OPNsense firmware system...done
+Done & sync heartbeat ...
+
+Removing old settings.db and config.xml files...
+done
+Removing old user_device_cache.db files...
+done
+Service `zenoverlay' has been started.
+Reloading OPNsense Firmware for update os-sunnyvalley repo...
+OK
+Restarting OPNsense web gui...
+done...
+Checking nabnode.crt issueSenpai must update...
+done...
+done
+[9/89] Upgrading os-sensei-agent from 2.3.3 to 2.4...
+[9/89] Extracting os-sensei-agent-2.4: .......... done
+Reloading ZENARMOR Templates...Checking phalcon support...
+Registering plug-in to the OPNsense firmware system... done
+done...
+[10/89] Installing python313-3.13.12...
+[10/89] Extracting python313-3.13.12: .......... done
+[11/89] Installing py313-async_generator-1.10_1...
+[11/89] Extracting py313-async_generator-1.10_1: .......... done
+[12/89] Installing py313-attrs-25.4.0...
+[12/89] Extracting py313-attrs-25.4.0: .......... done
+[13/89] Installing py313-certifi-2026.1.4...
+[13/89] Extracting py313-certifi-2026.1.4: .......... done
+[14/89] Installing py313-h11-0.16.0...
+[14/89] Extracting py313-h11-0.16.0: .......... done
+[15/89] Installing py313-hpack-4.0.0_1...
+[15/89] Extracting py313-hpack-4.0.0_1: .......... done
+[16/89] Installing py313-hyperframe-6.0.0_1...
+[16/89] Extracting py313-hyperframe-6.0.0_1: .......... done
+[17/89] Installing py313-h2-4.1.0_1...
+[17/89] Extracting py313-h2-4.1.0_1: .......... done
+[18/89] Installing py313-idna-3.11...
+[18/89] Extracting py313-idna-3.11: .......... done
+[19/89] Installing py313-markupsafe-3.0.3...
+[19/89] Extracting py313-markupsafe-3.0.3: .......... done
+[20/89] Installing py313-outcome-1.3.0_2...
+[20/89] Extracting py313-outcome-1.3.0_2: .......... done
+[21/89] Installing py313-packaging-26.0...
+[21/89] Extracting py313-packaging-26.0: .......... done
+[22/89] Reinstalling glib-2.84.4,2...
+[22/89] Extracting glib-2.84.4,2: .......... done
+[23/89] Installing py313-pyasn1-0.6.0...
+[23/89] Extracting py313-pyasn1-0.6.0: .......... done
+[24/89] Installing py313-ldap3-2.9.1_1...
+[24/89] Extracting py313-ldap3-2.9.1_1: .......... done
+[25/89] Installing py313-pycparser-2.23...
+[25/89] Extracting py313-pycparser-2.23: .......... done
+[26/89] Installing py313-cffi-2.0.0...
+[26/89] Extracting py313-cffi-2.0.0: .......... done
+[27/89] Installing py313-cryptography-46.0.4,1...
+[27/89] Extracting py313-cryptography-46.0.4,1: .......... done
+[28/89] Installing py313-pylsqpack-0.3.23...
+[28/89] Extracting py313-pylsqpack-0.3.23: .......... done
+[29/89] Installing py313-pyopenssl-25.3.0_1,1...
+[29/89] Extracting py313-pyopenssl-25.3.0_1,1: .......... done
+[30/89] Installing py313-pysocks-1.7.1_1...
+[30/89] Extracting py313-pysocks-1.7.1_1: .......... done
+[31/89] Installing py313-pytz-2025.2_1,1...
+[31/89] Extracting py313-pytz-2025.2_1,1: .......... done
+[32/89] Installing py313-pyyaml-6.0.3...
+[32/89] Extracting py313-pyyaml-6.0.3: .......... done
+[33/89] Installing py313-six-1.17.0...
+[33/89] Extracting py313-six-1.17.0: .......... done
+[34/89] Installing py313-python-dateutil-2.9.0...
+[34/89] Extracting py313-python-dateutil-2.9.0: .......... done
+[35/89] Installing py313-sniffio-1.3.1...
+[35/89] Extracting py313-sniffio-1.3.1: .......... done
+[36/89] Installing py313-socksio-1.0.0_1...
+[36/89] Extracting py313-socksio-1.0.0_1: .......... done
+[37/89] Installing py313-sortedcontainers-2.4.0_1...
+[37/89] Extracting py313-sortedcontainers-2.4.0_1: .......... done
+[38/89] Installing py313-sqlite3-3.13.12_10...
+[38/89] Extracting py313-sqlite3-3.13.12_10: ......... done
+[39/89] Installing py313-trio-0.33.0...
+[39/89] Extracting py313-trio-0.33.0: .......... done
+[40/89] Installing py313-truststore-0.10.4...
+[40/89] Extracting py313-truststore-0.10.4: .......... done
+[41/89] Installing py313-anyio-4.12.1...
+[41/89] Extracting py313-anyio-4.12.1: .......... done
+[42/89] Installing py313-httpcore-1.0.9...
+[42/89] Extracting py313-httpcore-1.0.9: .......... done
+[43/89] Installing py313-tzdata-2025.3...
+[43/89] Extracting py313-tzdata-2025.3: .......... done
+[44/89] Installing py313-ujson-5.11.0...
+[44/89] Extracting py313-ujson-5.11.0: .......... done
+[45/89] Installing py313-urllib3-2.6.3,1...
+[45/89] Extracting py313-urllib3-2.6.3,1: .......... done
+[46/89] Installing py313-vici-6.0.3...
+[46/89] Extracting py313-vici-6.0.3: .......... done
+[47/89] Upgrading smartmontools from 7.5_1 to 7.5_2...
+[47/89] Extracting smartmontools-7.5_2: .......... done
+[48/89] Deinstalling opnsense-26.1.2...
+Stopping configd...done
+Resetting root shell
+Updating /etc/shells
+Unhooking from /etc/rc
+Unhooking from /etc/rc.shutdown
+[48/89] Deleting files for opnsense-26.1.2: .......... done
+[49/89] Upgrading dnsmasq from 2.92,1 to 2.92_2,1...
+[49/89] Extracting dnsmasq-2.92_2,1: .......... done
+[50/89] Reinstalling kea-3.0.2_1...
+[50/89] Extracting kea-3.0.2_1: .......... done
+[51/89] Upgrading opnsense-installer from 25.1_1 to 25.1_2...
+[51/89] Extracting opnsense-installer-25.1_2: .......... done
+[52/89] Upgrading opnsense-lang from 26.1.1 to 26.1.4...
+[52/89] Extracting opnsense-lang-26.1.4: .......... done
+[53/89] Upgrading opnsense-update from 26.1.1_1 to 26.1.3...
+[53/89] Extracting opnsense-update-26.1.3: .......... done
+[54/89] Upgrading os-isc-dhcp from 1.0_3 to 1.0_4...
+[54/89] Extracting os-isc-dhcp-1.0_4: .......... done
+[55/89] Deinstalling py311-Jinja2-3.1.6...
+[55/89] Deleting files for py311-Jinja2-3.1.6: .......... done
+[56/89] Deinstalling py311-Babel-2.18.0...
+[56/89] Deleting files for py311-Babel-2.18.0: .......... done
+[57/89] Deinstalling py311-dnspython-2.8.0_1,1...
+[57/89] Deleting files for py311-dnspython-2.8.0_1,1: .......... done
+[58/89] Deinstalling py311-aioquic-1.3.0_1...
+[58/89] Deleting files for py311-aioquic-1.3.0_1: .......... done
+[59/89] Deinstalling py311-duckdb-1.4.4...
+[59/89] Deleting files for py311-duckdb-1.4.4: .......... done
+[60/89] Deinstalling py311-httpx-0.28.1_1...
+[60/89] Deleting files for py311-httpx-0.28.1_1: .......... done
+[61/89] Deinstalling py311-jq-1.11.0...
+[61/89] Deleting files for py311-jq-1.11.0: ........ done
+[62/89] Deinstalling py311-pandas-2.3.3,1...
+[62/89] Deleting files for py311-pandas-2.3.3,1: .......... done
+[63/89] Deinstalling py311-bottleneck-1.6.0...
+[63/89] Deleting files for py311-bottleneck-1.6.0: .......... done
+[64/89] Deinstalling py311-numexpr-2.14.1...
+[64/89] Deleting files for py311-numexpr-2.14.1: .......... done
+[65/89] Deinstalling py311-numpy-1.26.4_12,1...
+[65/89] Deleting files for py311-numpy-1.26.4_12,1: .......... done
+[66/89] Deinstalling py311-requests-2.32.5...
+[66/89] Deleting files for py311-requests-2.32.5: .......... done
+[67/89] Deinstalling py311-charset-normalizer-3.4.4...
+[67/89] Deleting files for py311-charset-normalizer-3.4.4: .......... done
+[68/89] Deinstalling py311-service-identity-24.2.0...
+[68/89] Deleting files for py311-service-identity-24.2.0: .......... done
+[69/89] Deinstalling py311-pyasn1-modules-0.4.1...
+[69/89] Deleting files for py311-pyasn1-modules-0.4.1: .......... done
+[70/89] Installing py313-Babel-2.18.0...
+[70/89] Extracting py313-Babel-2.18.0: .......... done
+[71/89] Installing py313-Jinja2-3.1.6...
+[71/89] Extracting py313-Jinja2-3.1.6: .......... done
+[72/89] Installing py313-charset-normalizer-3.4.4...
+[72/89] Extracting py313-charset-normalizer-3.4.4: .......... done
+[73/89] Installing py313-httpx-0.28.1_1...
+[73/89] Extracting py313-httpx-0.28.1_1: .......... done
+[74/89] Installing py313-numpy-1.26.4_12,1...
+[74/89] Extracting py313-numpy-1.26.4_12,1: .......... done
+[75/89] Installing py313-bottleneck-1.6.0...
+[75/89] Extracting py313-bottleneck-1.6.0: .......... done
+[76/89] Installing py313-numexpr-2.14.1...
+[76/89] Extracting py313-numexpr-2.14.1: .......... done
+[77/89] Installing py313-pandas-2.3.3,1...
+[77/89] Extracting py313-pandas-2.3.3,1: .......... done
+[78/89] Installing py313-duckdb-1.4.4...
+[78/89] Extracting py313-duckdb-1.4.4: .......... done
+[79/89] Installing py313-pyasn1-modules-0.4.1...
+[79/89] Extracting py313-pyasn1-modules-0.4.1: .......... done
+[80/89] Installing py313-requests-2.32.5...
+[80/89] Extracting py313-requests-2.32.5: .......... done
+[81/89] Installing py313-jq-1.11.0...
+[81/89] Extracting py313-jq-1.11.0: ........ done
+[82/89] Installing py313-service-identity-24.2.0...
+[82/89] Extracting py313-service-identity-24.2.0: .......... done
+[83/89] Installing py313-aioquic-1.3.0_1...
+[83/89] Extracting py313-aioquic-1.3.0_1: .......... done
+[84/89] Installing py313-dnspython-2.8.0_1,1...
+[84/89] Extracting py313-dnspython-2.8.0_1,1: .......... done
+[85/89] Upgrading strongswan from 6.0.3_1 to 6.0.4...
+[85/89] Extracting strongswan-6.0.4: .......... done
+[86/89] Upgrading suricata from 8.0.3_1 to 8.0.3_2...
+[86/89] Extracting suricata-8.0.3_2: .......... done
+[87/89] Upgrading syslog-ng from 4.10.2 to 4.11.0...
+[87/89] Extracting syslog-ng-4.11.0: .......... done
+[88/89] Reinstalling unbound-1.24.2_1...
+===> Creating groups
+Using existing group 'unbound'
+===> Creating users
+Using existing user 'unbound'
+[88/89] Extracting unbound-1.24.2_1: .......... done
+[89/89] Installing opnsense-26.1.4...
+[89/89] Extracting opnsense-26.1.4: .......... done
+Updating /etc/shells
+Registering root shell
+Hooking into /etc/rc
+Hooking into /etc/rc.shutdown
+Starting configd.
+>>> Invoking update script 'refresh.sh'
+Migrated OPNsense\Unbound\Unbound from 1.0.13 to 1.0.14
+Flushing all caches...done.
+Writing firmware settings: FreeBSD OPNsense SunnyValley
+Writing trust files...done.
+Scanning /usr/share/certs/untrusted for certificates...
+Scanning /usr/share/certs/trusted for certificates...
+Scanning /usr/local/share/certs for certificates...
+certctl: No changes to trust store were made.
+Writing trust bundles...done.
+Configuring login behaviour...done.
+Configuring cron...done.
+Configuring system logging...done.
+==> Running trigger: glib-schemas.ucl
+Compiling glib schemas
+No schema files found: doing nothing.
+==> Running trigger: gio-modules.ucl
+Generating GIO modules cache
+=====
+Message from python313-3.13.12:
+
+--
+Note that some standard Python modules are provided as separate ports
+as they require additional dependencies. They are available as:
+
+py313-gdbm       databases/py-gdbm@py313
+py313-sqlite3    databases/py-sqlite3@py313
+py313-tkinter    x11-toolkits/py-tkinter@py313
+=====
+Message from py313-urllib3-2.6.3,1:
+
+--
+Since version 1.25 HTTPS connections are now verified by default which is done
+via "cert_reqs = 'CERT_REQUIRED'".  While certificate verification can be
+disabled via "cert_reqs = 'CERT_NONE'", it's highly recommended to leave it on.
+
+Various consumers of net/py-urllib3 already have implemented routines that
+either explicitly enable or disable HTTPS certificate verification (e.g. via
+configuration settings, CLI arguments, etc.).
+
+Yet it may happen that there are still some consumers which don't explicitly
+enable/disable certificate verification for HTTPS connections which could then
+lead to errors (as is often the case with self-signed certificates).
+
+In case of an error one should try first to temporarily disable certificate
+verification of the problematic urllib3 consumer to see if that approach will
+remedy the issue.
+You may need to manually remove /usr/local/etc/dnsmasq.conf if it is no longer needed.
+=====
+Message from dnsmasq-2.92_2,1:
+
+--
+To enable dnsmasq, edit /usr/local/etc/dnsmasq.conf and
+set dnsmasq_enable="YES" in /etc/rc.conf[.local]
+
+Further options and actions are documented inside
+/usr/local/etc/rc.d/dnsmasq
+
+
+NOTE: when using dnssec, inaccurate system clocks
+can cause DNS resolution to fail
+because DNSSEC signatures may then not validate.
+
+
+SECURITY RECOMMENDATION
+~~~~~~~~~~~~~~~~~~~~~~~
+It is recommended to enable the wpad-related options
+at the end of the configuration file (you may need to
+copy them from the example file to yours) to fix
+CERT Vulnerability VU#598349.
+You may need to manually remove /usr/local/etc/kea/keactrl.conf if it is no longer needed.
+=====
+Message from py313-pandas-2.3.3,1:
+
+--
+Install math/py-statsmodels to enable parts of pandas.stats.
+Install devel/py-xarray to enable the to_xarray() function.
+=====
+Message from strongswan-6.0.4:
+
+--
+The default strongSwan configuration interface have been updated to vici.
+To use the stroke interface by default either compile the port without the vici option or
+set 'strongswan_interface="stroke"' in your rc.conf file.
+You may need to manually remove /usr/local/etc/suricata/classification.config if it is no longer needed.
+You may need to manually remove /usr/local/etc/suricata/reference.config if it is no longer needed.
+You may need to manually remove /usr/local/etc/suricata/suricata.yaml if it is no longer needed.
+You may need to manually remove /usr/local/etc/syslog-ng.conf if it is no longer needed.
+=====
+Message from opnsense-26.1.4:
+
+--
+One step ahead, one step behind it, now you gotta run to get even

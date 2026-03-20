@@ -1,0 +1,20 @@
+---
+- name: Versiones OPNsense firewall
+  hosts: opnsense
+  become: no
+  gather_facts: no
+
+  tasks:
+
+  - name: Guardar versión OPNSense
+    ansible.builtin.shell: opnsense-version
+    register: version
+
+  - name: Registrar versión OPNSense
+    lineinfile:
+      path: versiones-opnsense.txt
+      line: " {{ version.stdout }} - {{ inventory_hostname }}"
+      create: yes
+      insertafter: EOF
+    delegate_to: localhost
+    become: no
