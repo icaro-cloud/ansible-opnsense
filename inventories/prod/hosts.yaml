@@ -36,7 +36,7 @@ opnsense:
     fuster:
       ansible_host: fuster.dacominformatica.net
       ansible_port: 50300
-    grupopemargq:
+    grupopemar:
       ansible_host: 94.154.3.50
       ansible_port: 50300
     gumalba:
@@ -77,3 +77,4 @@ opnsense:
     ansible_become_method: su
     ansible_become_user: root
     ansible_become_ask_pass: true
+    ansible_python_interpreter: /usr/local/bin/python3

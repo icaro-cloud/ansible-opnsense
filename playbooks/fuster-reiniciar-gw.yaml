@@ -1,0 +1,42 @@
+---
+- name: Deshabilitar gateway en OPNsense
+  hosts: fuster
+  become: no
+  gather_facts: no
+  
+  vars:
+    KEY: "3tPsyASLVmxVLSrH6nrXYVUbgs0EgIAmRONOvkEj0gdElfs617QArzhdKi1fOaS2ChKMENvZHXaCflJ0"
+    SECRET: "whBcs0Wv4PSfG3EOHSkaxPWTM89VCtt1Uz2wumwc1EqQ67flyQMq8VK0FoiAg6SU7OoeOwNHv3/99Oye"
+    UUID: "e529ec03-54e7-4614-a8af-00ae2d0b8107"
+
+  tasks:
+    - name: Deshabilitar gateway
+      ansible.builtin.shell: curl -k -u "{{KEY}}:{{SECRET}}" -X POST https://127.0.0.1/api/routing/settings/togglegateway/{{UUID}}/0
+      register: toggle_result
+
+    # - name: Mostrar resultado del toggle
+    #   ansible.builtin.debug:
+    #     var: toggle_result
+
+    - name: Aplicar cambios en OPNsense
+      ansible.builtin.shell: curl -k -u "{{KEY}}:{{SECRET}}" -X POST https://127.0.0.1/api/routing/settings/reconfigure
+
+    - name: Habilitar Gateway
+      ansible.builtin.shell: curl -k -u "{{KEY}}:{{SECRET}}" -X POST https://127.0.0.1/api/routing/settings/togglegateway/{{UUID}}/1
+      register: reconfigure_result
+
+    # - name: Mostrar resultado del reconfigure
+    #   ansible.builtin.debug:
+    #     var: reconfigure_result
+
+    - name: Aplicar cambios en OPNsense
+      ansible.builtin.shell: curl -k -u "{{KEY}}:{{SECRET}}" -X POST https://127.0.0.1/api/routing/settings/reconfigure
+
+    - name: Registrar resultado
+      lineinfile:
+        path: versiones-opnsense.txt
+        line: "Fuster: gateway wg_usuarios reiniciado"
+        create: yes
+        insertafter: EOF
+      delegate_to: localhost
+      become: no

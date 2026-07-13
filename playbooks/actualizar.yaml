@@ -14,11 +14,13 @@
 
   tasks:
 
+  # Si no tiene ZFS, esta tarea falla
   - name: Crear snapshot con bectl
     ansible.builtin.shell: "bectl create {{ snapshot_name }}"
     register: snapshot_result
     changed_when: "'already exists' not in snapshot_result.stdout"
-
+    ignore_errors: yes
+    
   - name: Mostrar resultado
     ansible.builtin.debug:
       var: snapshot_result.stdout
