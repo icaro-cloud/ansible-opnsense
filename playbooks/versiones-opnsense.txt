@@ -1,22 +1,23 @@
-OPNsense 26.1.11_6 (amd64) - albirgestion
-OPNsense 26.1.11_6 (amd64) - asema
-OPNsense 26.1.11_6 (amd64) - bepama2
-OPNsense 26.1.11_6 (amd64) - angeldelaguarda
-OPNsense 26.1.11_6 (amd64) - bepama
-OPNsense 26.1.11_6 (amd64) - bocopa
-OPNsense 26.1.11_6 (amd64) - britigraf
-OPNsense 26.1.11_6 (amd64) - carelive
-OPNsense 26.1.11_6 (amd64) - electricidadmg
-OPNsense 26.1.11_6 (amd64) - electrotesla
-OPNsense 26.1.11_6 (amd64) - fuster
-OPNsense 26.1.11_6 (amd64) - estribor
-OPNsense 26.1.11_6 (amd64) - gumalba
-OPNsense 26.1.11_6 (amd64) - gumalba2
-OPNsense 26.1.11_6 (amd64) - jesusmaria
-OPNsense 26.1.11_6 (amd64) - lamilagrosa
-OPNsense 26.1.11_6 (amd64) - mastercover
-OPNsense 26.1.11_6 (amd64) - tecnobox
-OPNsense 26.1.11_6 (amd64) - thot
-OPNsense 26.1.11_6 (amd64) - icaro
-OPNsense 26.1.11_6 (amd64) - poste
 Fuster: gateway wg_usuarios reiniciado
+ OPNsense 26.1.11_10 (amd64) - angeldelaguarda
+ OPNsense 26.1.11_10 (amd64) - albirgestion
+ OPNsense 26.1.11_10 (amd64) - bepama
+ OPNsense 26.1.11_10 (amd64) - asema
+ OPNsense 26.1.11_10 (amd64) - bocopa
+ OPNsense 26.1.11_10 (amd64) - britigraf
+ OPNsense 26.1.11_10 (amd64) - carelive
+ OPNsense 26.1.11_10 (amd64) - electricidadmg
+ OPNsense 26.1.11_10 (amd64) - electrotesla
+ OPNsense 26.1.11_6 (amd64) - estribor
+ OPNsense 26.7.1_1 (amd64) - fuster
+ OPNsense 26.1.11_10 (amd64) - grupopemar
+ OPNsense 26.1.11_10 (amd64) - gumalba2
+ OPNsense 26.1.11_10 (amd64) - gumalba
+ OPNsense 26.1.11_10 (amd64) - jesusmaria
+ OPNsense 26.1.11_10 (amd64) - mastercover
+ OPNsense 26.1.11_10 (amd64) - lamilagrosa
+ OPNsense 26.1.11_10 (amd64) - tpol
+ OPNsense 26.1.11_10 (amd64) - tecnobox
+ OPNsense 26.1.11_10 (amd64) - thot
+ OPNsense 26.7.1_1 (amd64) - icaro
+ OPNsense 26.1.11_10 (amd64) - poste
