@@ -63,9 +63,9 @@ opnsense:
     thot:
       ansible_host: 88.30.13.255
       ansible_port: 50300
-    icaro:
-      ansible_host: 10.1.10.254
-      ansible_port: 22
+#    icaro:
+#      ansible_host: 10.1.10.254
+#      ansible_port: 22
     poste:
       ansible_host: 195.55.212.200
       ansible_port: 50300
