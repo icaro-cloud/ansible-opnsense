@@ -26,7 +26,7 @@
       var: snapshot_result.stdout
 
   - name: Update firmware metadata
-    ansible.builtin.shell: opnsense-update -U
+    ansible.builtin.shell: opnsense-update -u
     register: meta_update
     changed_when: false
     ignore_errors: yes
