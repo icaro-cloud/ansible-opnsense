@@ -25,6 +25,9 @@
     ansible.builtin.debug:
       var: snapshot_result.stdout
 
+  # ---------------------------------------------------------
+  # PREPARAR UPGRADE / CAMBIO DE RAMA
+  # ---------------------------------------------------------
   - name: Update firmware metadata
     ansible.builtin.shell: opnsense-update -u
     register: meta_update
@@ -35,6 +38,17 @@
     ansible.builtin.shell: opnsense-update
     register: base_update
     ignore_errors: yes
+
+  - name: Reiniciar OPNsense para aplicar cambio de rama (si lo hay)
+    ansible.builtin.reboot:
+      reboot_timeout: 900
+      connect_timeout: 10
+      pre_reboot_delay: 5
+      post_reboot_delay: 60
+
+    # ---------------------------------------------------------
+    # ACTUALIZAR SISTEMA BASE
+    # ---------------------------------------------------------
 
   - name: Update pkg repository
     ansible.builtin.shell: pkg-static update -f
