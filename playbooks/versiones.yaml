@@ -12,5 +12,5 @@
 
   - name: Registrar versión OPNSense
     ansible.builtin.debug:
-      msg: "Host: {{ inventory_hostname }} - {{ (result.stdout }}"
+      msg: "Host: {{ inventory_hostname }} - {{ result.stdout }}"
 
