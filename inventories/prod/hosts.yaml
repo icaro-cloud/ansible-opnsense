@@ -1,7 +1,7 @@
 opnsense:
   hosts:
     albirgestion:
-      ansible_host: 217.70.254.240
+      ansible_host: albirasesores.sytes.net
       ansible_port: 50300
     angeldelaguarda:
       ansible_host: angeldelaguarda.dacominformatica.net
