@@ -13,7 +13,7 @@ opnsense:
       ansible_host: 195.55.212.244
       ansible_port: 50300
     bocopa:
-      ansible_host: 81.42.201.208
+      ansible_host: 77.224.119.252
       ansible_port: 50300
     britigraf:
       ansible_host: 85.50.122.99
