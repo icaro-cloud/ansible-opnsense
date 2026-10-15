@@ -6,9 +6,6 @@ opnsense:
     angeldelaguarda:
       ansible_host: angeldelaguarda.dacominformatica.net
       ansible_port: 50300
-    asema:
-      ansible_host: asema.dacominformatica.net
-      ansible_port: 50300
     bepama:
       ansible_host: 185.213.109.13
       ansible_port: 50300
