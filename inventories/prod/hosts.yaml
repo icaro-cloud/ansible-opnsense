@@ -66,6 +66,9 @@ opnsense:
 #    icaro:
 #      ansible_host: 10.1.10.254
 #      ansible_port: 22
+    pruebas:
+      ansible_host: 10.1.10.122
+      ansible_port: 22
     poste:
       ansible_host: 195.55.212.200
       ansible_port: 50300
