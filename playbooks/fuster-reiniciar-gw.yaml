@@ -32,11 +32,11 @@
     - name: Aplicar cambios en OPNsense
       ansible.builtin.shell: curl -k -u "{{KEY}}:{{SECRET}}" -X POST https://127.0.0.1/api/routing/settings/reconfigure
 
-    - name: Registrar resultado
-      lineinfile:
-        path: versiones-opnsense.txt
-        line: "Fuster: gateway wg_usuarios reiniciado"
-        create: yes
-        insertafter: EOF
-      delegate_to: localhost
-      become: no
+    # - name: Registrar resultado
+    #   lineinfile:
+    #     path: versiones-opnsense.txt
+    #     line: "Fuster: gateway wg_usuarios reiniciado"
+    #     create: yes
+    #     insertafter: EOF
+    #   delegate_to: localhost
+    #   become: no

@@ -72,18 +72,18 @@
   #  delegate_to: localhost
   #  become: no
 
-  - name: Guardar versión OPNSense
-    ansible.builtin.shell: opnsense-version
-    register: version
+  # - name: Guardar versión OPNSense
+  #   ansible.builtin.shell: opnsense-version
+  #   register: version
 
-  - name: Registrar versión OPNSense
-    lineinfile:
-      path: versiones-opnsense.txt
-      line: "{{ version.stdout }} - {{ inventory_hostname }}"
-      create: yes
-      insertafter: EOF
-    delegate_to: localhost
-    become: no
+  # - name: Registrar versión OPNSense
+  #   lineinfile:
+  #     path: versiones-opnsense.txt
+  #     line: "{{ version.stdout }} - {{ inventory_hostname }}"
+  #     create: yes
+  #     insertafter: EOF
+  #   delegate_to: localhost
+  #   become: no
 
   - name: Reboot firewall after updates
     reboot:
