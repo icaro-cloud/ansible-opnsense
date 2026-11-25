@@ -45,6 +45,9 @@ opnsense:
     gumalba2:
       ansible_host: 195.55.212.215
       ansible_port: 50300
+    hedone:
+      ansible_host: 84.77.34.23
+      ansible_port: 50300
     jesusmaria:
       ansible_host: jesusmaria.dacominformatica.net
       ansible_port: 50300
